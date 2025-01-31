@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+</head>
+<body>
+    <h1>Teste de imagem dinâmica</h1>
+    <p>Só fazendo um teste com min width</p>
+    <picture>
+        <source media="(min-width: 1050px)" srcset="img/foto-g.png" type="image/png"> <!--acima de 1050px, foto grande-->
+        <source media="(min-width: 750px)" srcset="img/foto-m.png" type="image/png"> <!--acima de 750px,mas abaixo de 1050px, foto media-->
+        <img src="img/foto-p.png" alt="foto dinâmica">
+    </picture>
+    <h1>reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir audio em HTML5</p>     
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/Audio donate do smzinho.mp3" type="audio/mpeg">
+        <p>infelizmente seu navegador nãoi consegue reproduzir áudio, <a href="midia/Audio donate do smzinho.mp3">clique aqui para baixar o arquivo MP3</a></p>
+    </audio>
+</body>
+</html>

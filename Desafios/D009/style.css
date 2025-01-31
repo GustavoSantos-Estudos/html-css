@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+body{
+     background-color: #a4dcec;
+}
+        
+h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+h1.secundario{
+    margin-top: 50px;
+}
+
+p{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+        
+a{
+     color: red;
+}
+
+main{
+    background-color: white;
+    width: 1000px;
+    height: 650px;
+    padding: 10px;
+    box-shadow: 5px 5px 15px #777574c2;
+    margin: 25px auto 25px auto;
+    border-radius: 10px;
+}
+
+.imgindex{
+    height: 271px;
+    width: 492px;
+}
+
+.voltar{
+    display: block;
+    margin: auto;
+    height: 50px;
+    width: 50px;
+}
+
+.video{
+    display: block;
+    margin: 50px auto 50px auto;
+    width: 560px;
+}
